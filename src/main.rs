@@ -1,16 +1,7 @@
-fn main() {
-    
-    println!("Helamã is Chad!");
-
-    name();
-
-    let name = "murilo dá o canceco".as_bytes();
-
-    let name = String::new();
+fn  multi (num1: i8, num2: i8) -> i8 {
+    num1 * num2
 }
 
-fn name() {
-    let name = ("Helamã is Chad!");
-
-    println!("{}", name)
-}
+fn main () {
+    let num1 = multi (5, 3);
+        println! ("result: {}",);
